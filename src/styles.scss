@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/swiper/css/swiper.min.css';
+
+body{
+    margin:0;
+}
+h1{
+    padding-bottom: 24px;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+@font-face {
+    font-family: myliusModern;
+    src: url(../src/assets/fonts/mylius-modern-extlig.woff);
+    src: url(../src/assets/fonts/mylius-modern-extlig.eot); /* IE9 Compat Modes */
+  src: url(../src/assets/fonts/mylius-modern-extlig.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+       url(../src/assets/fonts/mylius-modern-extlig.woff2) format('woff2'), /* Super Modern Browsers */
+       url(../src/assets/fonts/mylius-modern-extlig.woff) format('woff'), /* Pretty Modern Browsers */
+       url(../src/assets/fonts/mylius-modern-extlig.ttf)  format('truetype'), /* Safari, Android, iOS */
+       url(../src/assets/fonts/mylius-modern-extlig.svg#svgFontName) format('svg'); /* Legacy iOS */
+  }
+  
+  div {
+    font-family: myliusModern;
+  }
+  header{
+    font-size: 32px;
+}
