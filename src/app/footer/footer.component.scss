@@ -1,0 +1,18 @@
+footer{
+    background: #9696b8;
+    color:#f3f3fb;
+    padding: 16px;
+    ul{
+        list-style-type: none;
+        float: right;
+        margin:0;
+        li{
+            float:left;
+            margin:0 10px;
+            a{
+                color:white;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.html5{
+    span:before{
+        background: url("../../assets/icons/html.jpg") no-repeat;         
+    }
+}
+.css3{
+    span:before{
+         background: url("../../assets/icons/css.jpg") no-repeat;          
+    }
+}
+.javascript{
+    span:before{
+        background: url("../../assets/icons/javascript.jpg") no-repeat;          
+    }
+}
+.typeScript{
+    span:before{
+         background: url("../../assets/icons/typescript.jpg") no-repeat;         
+    }
+}
+.angular{
+    span:before{
+         background: url("../../assets/icons/angular.jpg") no-repeat;         
+    }
+}
+.jquery{
+    span:before{
+         background: url("../../assets/icons/jquery.jpg") no-repeat;         
+    }
+}
+.photoshop{
+    span:before{
+         background: url("../../assets/icons/photoshop.jpg") no-repeat;         
+    }
+}
+.illustrator{
+    span:before{
+         background: url("../../assets/icons/illustrator.jpg") no-repeat;         
+    }
+}
+.animate{
+    span:before{
+         background: url("../../assets/icons/animate.jpg") no-repeat;         
+    }
+}
+.figma{
+    span:before{
+         background: url("../../assets/icons/figma.jpg") no-repeat;         
+    }
+}
+.axure{
+    span:before{
+         background: url("../../assets/icons/axure.jpg") no-repeat;         
+    }
+}
+.invision{
+    span:before{
+         background: url("../../assets/icons/invision.jpg") no-repeat;         
+    }
+}
+ul{
+    padding:0;
+    li{
+        list-style-type: none;
+        padding:16px;
+        &:hover{
+            background: #f8fafd;
+        }
+        span{
+            line-height: 32px;
+            &:before{
+                content: "";
+                display: block;
+                width: 32px;
+                background-size: 100%;
+                height: 32px;
+                float: left;
+                margin: 0 6px 0 0;  
+        }
+        }
+    }
+}
